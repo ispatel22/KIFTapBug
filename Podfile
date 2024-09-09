@@ -10,7 +10,8 @@ target 'KIFTapBug' do
 
 
   target 'Acceptance Tests' do
-      pod 'KIF', '3.8.7'
+	pod 'KIF/IdentifierTests'
+      	pod 'KIF', '3.8.7'
   end
 
 end
