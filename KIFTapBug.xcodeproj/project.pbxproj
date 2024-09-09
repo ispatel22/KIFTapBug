@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15EF5EF3873798F3384E918C /* Pods_KIFTapBug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3AB5FF973139AB5C5899BE /* Pods_KIFTapBug.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		49E847780EC9B1549DBACC1C /* Pods_KIFTapBug_Acceptance_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83233283183F88B94EE28E19 /* Pods_KIFTapBug_Acceptance_Tests.framework */; };
+		863166CA2C8F4F01009CC0E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86409F2F2C8F4D600013C9FA /* XCTest.framework */; platformFilter = ios; };
+		8674C1952C8F4B6600D7F922 /* MyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8674C1942C8F4B6600D7F922 /* MyTest.m */; };
+		86D2384E2C8F4E62002D12B6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86409F2F2C8F4D600013C9FA /* XCTest.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		86F9EE7D2C8F473600CB5C87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F9EE7C2C8F473600CB5C87 /* AppDelegate.m */; };
 		86F9EE802C8F473600CB5C87 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F9EE7F2C8F473600CB5C87 /* SceneDelegate.m */; };
 		86F9EE832C8F473600CB5C87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F9EE822C8F473600CB5C87 /* ViewController.m */; };
@@ -16,7 +21,25 @@
 		86F9EE8E2C8F473700CB5C87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F9EE8D2C8F473700CB5C87 /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		86F9EE9C2C8F474100CB5C87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86F9EE702C8F473600CB5C87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86F9EE772C8F473600CB5C87;
+			remoteInfo = KIFTapBug;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		19807D556BAAA5D81C77782A /* Pods-Acceptance Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.debug.xcconfig"; path = "Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		279A4004A42E8159B8FF71DB /* Pods-KIFTapBug-Acceptance Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFTapBug-Acceptance Tests.release.xcconfig"; path = "Target Support Files/Pods-KIFTapBug-Acceptance Tests/Pods-KIFTapBug-Acceptance Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5E3AB5FF973139AB5C5899BE /* Pods_KIFTapBug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KIFTapBug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		745E570CC1CFD81526603341 /* Pods-Acceptance Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.release.xcconfig"; path = "Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.release.xcconfig"; sourceTree = "<group>"; };
+		83233283183F88B94EE28E19 /* Pods_KIFTapBug_Acceptance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KIFTapBug_Acceptance_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86409F2F2C8F4D600013C9FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8674C1932C8F4B3900D7F922 /* MyTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTest.h; sourceTree = "<group>"; };
+		8674C1942C8F4B6600D7F922 /* MyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTest.m; sourceTree = "<group>"; };
 		86F9EE782C8F473600CB5C87 /* KIFTapBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIFTapBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F9EE7B2C8F473600CB5C87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86F9EE7C2C8F473600CB5C87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +52,10 @@
 		86F9EE8A2C8F473700CB5C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86F9EE8C2C8F473700CB5C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86F9EE8D2C8F473700CB5C87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86F9EE982C8F474100CB5C87 /* Acceptance Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acceptance Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77B3516088977737ABAE68A /* Pods-KIFTapBug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFTapBug.debug.xcconfig"; path = "Target Support Files/Pods-KIFTapBug/Pods-KIFTapBug.debug.xcconfig"; sourceTree = "<group>"; };
+		F292F35F70FBF0583AD7F828 /* Pods-KIFTapBug-Acceptance Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFTapBug-Acceptance Tests.debug.xcconfig"; path = "Target Support Files/Pods-KIFTapBug-Acceptance Tests/Pods-KIFTapBug-Acceptance Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF1532699C6B5780113A00BC /* Pods-KIFTapBug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFTapBug.release.xcconfig"; path = "Target Support Files/Pods-KIFTapBug/Pods-KIFTapBug.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +63,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D2384E2C8F4E62002D12B6 /* XCTest.framework in Frameworks */,
+				15EF5EF3873798F3384E918C /* Pods_KIFTapBug.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F9EE952C8F474100CB5C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863166CA2C8F4F01009CC0E5 /* XCTest.framework in Frameworks */,
+				49E847780EC9B1549DBACC1C /* Pods_KIFTapBug_Acceptance_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CA8128C1C2594A2D5F12F76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86409F2F2C8F4D600013C9FA /* XCTest.framework */,
+				5E3AB5FF973139AB5C5899BE /* Pods_KIFTapBug.framework */,
+				83233283183F88B94EE28E19 /* Pods_KIFTapBug_Acceptance_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		86F9EE6F2C8F473600CB5C87 = {
 			isa = PBXGroup;
 			children = (
 				86F9EE7A2C8F473600CB5C87 /* KIFTapBug */,
+				86F9EE992C8F474100CB5C87 /* Acceptance Tests */,
 				86F9EE792C8F473600CB5C87 /* Products */,
+				B9C537369E8677CF25E5467A /* Pods */,
+				3CA8128C1C2594A2D5F12F76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				86F9EE782C8F473600CB5C87 /* KIFTapBug.app */,
+				86F9EE982C8F474100CB5C87 /* Acceptance Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +128,28 @@
 			path = KIFTapBug;
 			sourceTree = "<group>";
 		};
+		86F9EE992C8F474100CB5C87 /* Acceptance Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8674C1932C8F4B3900D7F922 /* MyTest.h */,
+				8674C1942C8F4B6600D7F922 /* MyTest.m */,
+			);
+			path = "Acceptance Tests";
+			sourceTree = "<group>";
+		};
+		B9C537369E8677CF25E5467A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19807D556BAAA5D81C77782A /* Pods-Acceptance Tests.debug.xcconfig */,
+				745E570CC1CFD81526603341 /* Pods-Acceptance Tests.release.xcconfig */,
+				B77B3516088977737ABAE68A /* Pods-KIFTapBug.debug.xcconfig */,
+				FF1532699C6B5780113A00BC /* Pods-KIFTapBug.release.xcconfig */,
+				F292F35F70FBF0583AD7F828 /* Pods-KIFTapBug-Acceptance Tests.debug.xcconfig */,
+				279A4004A42E8159B8FF71DB /* Pods-KIFTapBug-Acceptance Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86F9EE912C8F473700CB5C87 /* Build configuration list for PBXNativeTarget "KIFTapBug" */;
 			buildPhases = (
+				A6E03C9B4060B0FEEAC4471F /* [CP] Check Pods Manifest.lock */,
 				86F9EE742C8F473600CB5C87 /* Sources */,
 				86F9EE752C8F473600CB5C87 /* Frameworks */,
 				86F9EE762C8F473600CB5C87 /* Resources */,
+				2AC115B160C95A2E06DE4018 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -95,6 +171,26 @@
 			productName = KIFTapBug;
 			productReference = 86F9EE782C8F473600CB5C87 /* KIFTapBug.app */;
 			productType = "com.apple.product-type.application";
+		};
+		86F9EE972C8F474100CB5C87 /* Acceptance Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F9EE9E2C8F474100CB5C87 /* Build configuration list for PBXNativeTarget "Acceptance Tests" */;
+			buildPhases = (
+				0FEBD6318AD2B940379F8D38 /* [CP] Check Pods Manifest.lock */,
+				86F9EE942C8F474100CB5C87 /* Sources */,
+				86F9EE952C8F474100CB5C87 /* Frameworks */,
+				86F9EE962C8F474100CB5C87 /* Resources */,
+				B9E3401E6535630CFD82C4A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86F9EE9D2C8F474100CB5C87 /* PBXTargetDependency */,
+			);
+			name = "Acceptance Tests";
+			productName = "Acceptance Tests";
+			productReference = 86F9EE982C8F474100CB5C87 /* Acceptance Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -107,6 +203,10 @@
 				TargetAttributes = {
 					86F9EE772C8F473600CB5C87 = {
 						CreatedOnToolsVersion = 15.4;
+					};
+					86F9EE972C8F474100CB5C87 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 86F9EE772C8F473600CB5C87;
 					};
 				};
 			};
@@ -124,6 +224,7 @@
 			projectRoot = "";
 			targets = (
 				86F9EE772C8F473600CB5C87 /* KIFTapBug */,
+				86F9EE972C8F474100CB5C87 /* Acceptance Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -139,7 +240,95 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86F9EE962C8F474100CB5C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FEBD6318AD2B940379F8D38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KIFTapBug-Acceptance Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AC115B160C95A2E06DE4018 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KIFTapBug/Pods-KIFTapBug-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KIFTapBug/Pods-KIFTapBug-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KIFTapBug/Pods-KIFTapBug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E03C9B4060B0FEEAC4471F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KIFTapBug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9E3401E6535630CFD82C4A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KIFTapBug-Acceptance Tests/Pods-KIFTapBug-Acceptance Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KIFTapBug-Acceptance Tests/Pods-KIFTapBug-Acceptance Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KIFTapBug-Acceptance Tests/Pods-KIFTapBug-Acceptance Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		86F9EE742C8F473600CB5C87 /* Sources */ = {
@@ -153,7 +342,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86F9EE942C8F474100CB5C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8674C1952C8F4B6600D7F922 /* MyTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86F9EE9D2C8F474100CB5C87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86F9EE772C8F473600CB5C87 /* KIFTapBug */;
+			targetProxy = 86F9EE9C2C8F474100CB5C87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		86F9EE842C8F473600CB5C87 /* Main.storyboard */ = {
@@ -212,7 +417,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -227,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -273,7 +478,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -282,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -293,11 +498,13 @@
 		};
 		86F9EE922C8F473700CB5C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77B3516088977737ABAE68A /* Pods-KIFTapBug.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KS9B887BK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KIFTapBug/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -305,6 +512,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,11 +527,13 @@
 		};
 		86F9EE932C8F473700CB5C87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1532699C6B5780113A00BC /* Pods-KIFTapBug.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KS9B887BK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KIFTapBug/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -331,6 +541,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,6 +551,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86F9EE9F2C8F474100CB5C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F292F35F70FBF0583AD7F828 /* Pods-KIFTapBug-Acceptance Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KS9B887BK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kiftapbug.Acceptance-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIFTapBug.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KIFTapBug";
+			};
+			name = Debug;
+		};
+		86F9EEA02C8F474100CB5C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279A4004A42E8159B8FF71DB /* Pods-KIFTapBug-Acceptance Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KS9B887BK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kiftapbug.Acceptance-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIFTapBug.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KIFTapBug";
 			};
 			name = Release;
 		};
@@ -360,6 +609,15 @@
 			buildConfigurations = (
 				86F9EE922C8F473700CB5C87 /* Debug */,
 				86F9EE932C8F473700CB5C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F9EE9E2C8F474100CB5C87 /* Build configuration list for PBXNativeTarget "Acceptance Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F9EE9F2C8F474100CB5C87 /* Debug */,
+				86F9EEA02C8F474100CB5C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

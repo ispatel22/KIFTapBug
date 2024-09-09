@@ -1,0 +1,21 @@
+PODS:
+  - KIF (3.8.7):
+    - KIF/Core (= 3.8.7)
+  - KIF/Core (3.8.7)
+  - KIF/IdentifierTests (3.8.7):
+    - KIF/Core
+
+DEPENDENCIES:
+  - KIF (= 3.8.7)
+  - KIF/IdentifierTests
+
+SPEC REPOS:
+  trunk:
+    - KIF
+
+SPEC CHECKSUMS:
+  KIF: 779cdbca106633b94ecee7b036537490ebdbd9de
+
+PODFILE CHECKSUM: 070172889a7ed12d24a441372f0f0f0b07882609
+
+COCOAPODS: 1.15.2
