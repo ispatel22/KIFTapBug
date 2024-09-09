@@ -6,8 +6,9 @@ This causes the buttons action method to not get called. This issue only happens
 
 How to run:
 1. Clone the repo
-2. Open KIFTapBug.xcworkspace
-3. For the simulator use iPhone 15 Pro Max iOS 18.0
-4. Go to MyTest.m and run test_01
-5. Observe the logs and notice the taps happening but not getting registered.
-6. Run it on Xcode 15 and Xcode 16 beta.
+2. In terminal, goto the project directory and run 'pod install'
+3. Open KIFTapBug.xcworkspace
+5. For the simulator use iPhone 15 Pro Max iOS 18.0
+6. Go to Acceptance Tests/MyTest.m and run test_01
+7. Observe the logs and notice the taps happening but not getting registered.
+8. Run it on Xcode 15 and Xcode 16 beta.
