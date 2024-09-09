@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--My View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MyViewController" customModule="KIFTapBug" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,6 +25,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aah-eU-h8R">
+                                <rect key="frame" x="134" y="408.66666666666669" width="125" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Open SwiftUI"/>
+                                <connections>
+                                    <action selector="openSwiftUIButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DuA-xs-MVN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
@@ -32,8 +41,13 @@
                             <constraint firstItem="EOA-C3-V1I" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="Sgi-yP-ib5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EOA-C3-V1I" secondAttribute="trailing" id="pKO-NE-RdL"/>
                             <constraint firstItem="EOA-C3-V1I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sCr-jE-9Pe"/>
+                            <constraint firstItem="aah-eU-h8R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wEo-WK-Kla"/>
+                            <constraint firstItem="aah-eU-h8R" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wvN-jf-KWb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="openSwiftUIButton" destination="aah-eU-h8R" id="lBF-po-tfy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

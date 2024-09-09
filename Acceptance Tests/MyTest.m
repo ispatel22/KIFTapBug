@@ -18,7 +18,12 @@
 
 - (void)test_01
 {
-    NSLog(@"Starting test_01");
+    [[viewTester usingLabel:@"OpenSwiftUIButtonIdentifier"] tap];
+    [[viewTester usingLabel:@"MySwiftUIViewHelloWorld"] tap];
+    [[viewTester usingIdentifier:@"ChangeColorButtonIdentifier"] tap];
+    [[viewTester usingIdentifier:@"ChangeColorButtonIdentifier"] tap];
+    [[viewTester usingIdentifier:@"ChangeColorButtonIdentifier"] tap];
+    [viewTester waitForTimeInterval:3.0];
 }
 
 @end

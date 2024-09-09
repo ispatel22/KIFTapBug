@@ -11,10 +11,11 @@
 		49E847780EC9B1549DBACC1C /* Pods_KIFTapBug_Acceptance_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83233283183F88B94EE28E19 /* Pods_KIFTapBug_Acceptance_Tests.framework */; };
 		863166CA2C8F4F01009CC0E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86409F2F2C8F4D600013C9FA /* XCTest.framework */; platformFilter = ios; };
 		8674C1952C8F4B6600D7F922 /* MyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8674C1942C8F4B6600D7F922 /* MyTest.m */; };
+		86881B152C8F5FB500FF97AC /* MySwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86881B142C8F5FB500FF97AC /* MySwiftUIView.swift */; };
+		86881B172C8F60C600FF97AC /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86881B162C8F60C600FF97AC /* MyViewController.swift */; };
 		86D2384E2C8F4E62002D12B6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86409F2F2C8F4D600013C9FA /* XCTest.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		86F9EE7D2C8F473600CB5C87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F9EE7C2C8F473600CB5C87 /* AppDelegate.m */; };
 		86F9EE802C8F473600CB5C87 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F9EE7F2C8F473600CB5C87 /* SceneDelegate.m */; };
-		86F9EE832C8F473600CB5C87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F9EE822C8F473600CB5C87 /* ViewController.m */; };
 		86F9EE862C8F473600CB5C87 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 86F9EE852C8F473600CB5C87 /* Base */; };
 		86F9EE882C8F473700CB5C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F9EE872C8F473700CB5C87 /* Assets.xcassets */; };
 		86F9EE8B2C8F473700CB5C87 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 86F9EE8A2C8F473700CB5C87 /* Base */; };
@@ -40,13 +41,14 @@
 		86409F2F2C8F4D600013C9FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8674C1932C8F4B3900D7F922 /* MyTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTest.h; sourceTree = "<group>"; };
 		8674C1942C8F4B6600D7F922 /* MyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTest.m; sourceTree = "<group>"; };
+		86881B132C8F5FB500FF97AC /* KIFTapBug-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KIFTapBug-Bridging-Header.h"; sourceTree = "<group>"; };
+		86881B142C8F5FB500FF97AC /* MySwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIView.swift; sourceTree = "<group>"; };
+		86881B162C8F60C600FF97AC /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		86F9EE782C8F473600CB5C87 /* KIFTapBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIFTapBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F9EE7B2C8F473600CB5C87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86F9EE7C2C8F473600CB5C87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		86F9EE7E2C8F473600CB5C87 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		86F9EE7F2C8F473600CB5C87 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		86F9EE812C8F473600CB5C87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		86F9EE822C8F473600CB5C87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		86F9EE852C8F473600CB5C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86F9EE872C8F473700CB5C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86F9EE8A2C8F473700CB5C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -117,13 +119,14 @@
 				86F9EE7C2C8F473600CB5C87 /* AppDelegate.m */,
 				86F9EE7E2C8F473600CB5C87 /* SceneDelegate.h */,
 				86F9EE7F2C8F473600CB5C87 /* SceneDelegate.m */,
-				86F9EE812C8F473600CB5C87 /* ViewController.h */,
-				86F9EE822C8F473600CB5C87 /* ViewController.m */,
 				86F9EE842C8F473600CB5C87 /* Main.storyboard */,
 				86F9EE872C8F473700CB5C87 /* Assets.xcassets */,
 				86F9EE892C8F473700CB5C87 /* LaunchScreen.storyboard */,
 				86F9EE8C2C8F473700CB5C87 /* Info.plist */,
 				86F9EE8D2C8F473700CB5C87 /* main.m */,
+				86881B142C8F5FB500FF97AC /* MySwiftUIView.swift */,
+				86881B132C8F5FB500FF97AC /* KIFTapBug-Bridging-Header.h */,
+				86881B162C8F60C600FF97AC /* MyViewController.swift */,
 			);
 			path = KIFTapBug;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				TargetAttributes = {
 					86F9EE772C8F473600CB5C87 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					86F9EE972C8F474100CB5C87 = {
 						CreatedOnToolsVersion = 15.4;
@@ -335,10 +339,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86F9EE832C8F473600CB5C87 /* ViewController.m in Sources */,
 				86F9EE7D2C8F473600CB5C87 /* AppDelegate.m in Sources */,
 				86F9EE8E2C8F473700CB5C87 /* main.m in Sources */,
 				86F9EE802C8F473600CB5C87 /* SceneDelegate.m in Sources */,
+				86881B172C8F60C600FF97AC /* MyViewController.swift in Sources */,
+				86881B152C8F5FB500FF97AC /* MySwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +507,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3KS9B887BK;
@@ -521,6 +527,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kiftapbug.KIFTapBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KIFTapBug/KIFTapBug-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -531,6 +540,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3KS9B887BK;
@@ -550,6 +560,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kiftapbug.KIFTapBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KIFTapBug/KIFTapBug-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -558,6 +570,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F292F35F70FBF0583AD7F828 /* Pods-KIFTapBug-Acceptance Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -577,6 +590,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 279A4004A42E8159B8FF71DB /* Pods-KIFTapBug-Acceptance Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
