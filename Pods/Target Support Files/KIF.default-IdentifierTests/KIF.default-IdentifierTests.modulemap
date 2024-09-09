@@ -1,6 +1,0 @@
-framework module KIF {
-  umbrella header "KIF.default-IdentifierTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
