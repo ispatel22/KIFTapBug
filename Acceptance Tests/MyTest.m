@@ -4,25 +4,19 @@
 
 @implementation MyTest
 
-- (void)beforeEach
-{
-    [super beforeEach];
-    NSLog(@"beforeEach MyTest");
-}
-
-- (void)afterEach
-{
-    [super afterEach];
-    NSLog(@"afterEach MyTest");
-}
-
 - (void)test_01
 {
     [[viewTester usingLabel:@"OpenSwiftUIButtonIdentifier"] tap];
-    [[viewTester usingLabel:@"MySwiftUIViewHelloWorld"] tap];
-    [[viewTester usingIdentifier:@"ChangeColorButtonIdentifier"] tap];
-    [[viewTester usingIdentifier:@"ChangeColorButtonIdentifier"] tap];
-    [[viewTester usingIdentifier:@"ChangeColorButtonIdentifier"] tap];
+  
+    [[viewTester usingIdentifier:@"ShowTextButtonIdentifier"] waitForView];
+    NSLog(@"test_01: found button with label ShowTextButtonIdentifier");
+    
+    [[viewTester usingIdentifier:@"ShowTextButtonIdentifier"] tap];
+    NSLog(@"test_01: tapped button with identifier ShowTextButtonIdentifier");
+    
+    [[viewTester usingLabel:@"MySwiftUIViewHelloWorld"] waitForView];
+    NSLog(@"test_01: Hello world text is visible");
+  
     [viewTester waitForTimeInterval:3.0];
 }
 
