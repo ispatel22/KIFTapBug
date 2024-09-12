@@ -8,7 +8,7 @@
 {
     [[viewTester usingLabel:@"OpenSwiftUIButtonIdentifier"] tap];
   
-    [[viewTester usingIdentifier:@"ShowTextButtonIdentifier"] waitForView];
+    UIView* showTextButton = [[viewTester usingIdentifier:@"ShowTextButtonIdentifier"] waitForView];
     NSLog(@"test_01: found button with label ShowTextButtonIdentifier");
     
     [[viewTester usingIdentifier:@"ShowTextButtonIdentifier"] tap];
